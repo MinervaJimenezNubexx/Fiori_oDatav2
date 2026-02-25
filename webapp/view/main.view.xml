@@ -4,7 +4,8 @@
     <Page id="page" title="{i18n>title}">
 
     <Table id="idEmployeesTable"
-		        items="{/Employees}"> <!--nombreModelo>/nombreListaDelJson, el modelo en este caso no tiene nombre, es "" por defecto-->
+		        items="{/Employees}"
+                mode= "SingleSelectMaster" itemPress=".onPressItem"> <!--nombreModelo>/nombreListaDelJson, el modelo en este caso no tiene nombre, es "" por defecto-->
                 <columns>
 			        <Column width="5em">
 				        <Text text="Employee ID" />
@@ -26,7 +27,7 @@
 			        </Column>
                 </columns>
                 <items>
-			        <ColumnListItem>
+			        <ColumnListItem type= "Navigation">
 				        <cells>
                             <Text
 						        text="{EmployeeID}" />

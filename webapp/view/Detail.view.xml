@@ -1,0 +1,31 @@
+<mvc:View
+    controllerName="com.nubexx.hr.odatav2.controller.Detail"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+>
+    <Page
+        id="Detail"
+        title="{i18n>title}">
+
+        <ObjectHeader
+            title="{FirstName} {LastName}"
+            number="{EmployeeID}"
+            numberUnit="ID">
+
+                <ObjectAttribute text="Address: {Address}" />
+                <ObjectAttribute text="Birth Date: {BirthDate}" />
+                <ObjectAttribute text="City: {City}" />
+                <ObjectAttribute text="Country: {Country}" />
+                <ObjectAttribute text="Extension: {Extension}" />
+                <ObjectAttribute text="Home Phone: {HomePhone}" />
+                <ObjectAttribute text="Notes: {Notes}" />
+                <ObjectAttribute text="Postal Code: {PostalCode}" />
+                <ObjectAttribute text="Region: {Region}" />
+                <ObjectAttribute text="Title: {Title}" />
+                <ObjectAttribute text="Title of Courtesy: {TitleOfCourtesy}" />
+
+        </ObjectHeader>
+
+    </Page>
+
+</mvc:View>

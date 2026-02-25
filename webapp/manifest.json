@@ -95,12 +95,21 @@
           "target": [
             "Targetmain"
           ]
+        },
+                {
+          "name": "Detail",
+          "pattern": "detail/{EmployeeID}",
+          "target": ["TargetDetail"]
         }
       ],
       "targets": {
         "Targetmain": {
           "id": "main",
           "name": "main"
+        },
+        "TargetDetail": {
+          "id": "Detail",
+          "name": "Detail"
         }
       }
     },
