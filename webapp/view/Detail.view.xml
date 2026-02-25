@@ -26,6 +26,20 @@
 
         </ObjectHeader>
 
+
+        <footer>
+            <Toolbar>
+
+				<Button id = "backButton"
+                    type = "Back" 
+                    text = "Volver"
+                    press = "onPress"
+                    class = "sapUITinyMargin">
+				</Button>
+
+			</Toolbar>
+
+        </footer>
     </Page>
 
 </mvc:View>
