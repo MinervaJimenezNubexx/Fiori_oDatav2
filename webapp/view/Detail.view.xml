@@ -5,24 +5,24 @@
 >
     <Page
         id="Detail"
-        title="{i18n>title}">
+        title="{i18n>detailTitle}">
 
         <ObjectHeader
             title="{FirstName} {LastName}"
             number="{EmployeeID}"
             numberUnit="ID">
 
-                <ObjectAttribute text="Address: {Address}" />
-                <ObjectAttribute text="Birth Date: {BirthDate}" />
-                <ObjectAttribute text="City: {City}" />
-                <ObjectAttribute text="Country: {Country}" />
-                <ObjectAttribute text="Extension: {Extension}" />
-                <ObjectAttribute text="Home Phone: {HomePhone}" />
-                <ObjectAttribute text="Notes: {Notes}" />
-                <ObjectAttribute text="Postal Code: {PostalCode}" />
-                <ObjectAttribute text="Region: {Region}" />
-                <ObjectAttribute text="Title: {Title}" />
-                <ObjectAttribute text="Title of Courtesy: {TitleOfCourtesy}" />
+                <ObjectAttribute text="{i18n>EmployeeAddress} {Address}" />
+                <ObjectAttribute text="{i18n>EmployeeBirthDate} {BirthDate}" />
+                <ObjectAttribute text="{i18n>EmployeeCity} {City}" />
+                <ObjectAttribute text="{i18n>EmployeeCountry} {Country}" />
+                <ObjectAttribute text="{i18n>EmployeeExtension} {Extension}" />
+                <ObjectAttribute text="{i18n>EmployeeHomePhone} {HomePhone}" />
+                <ObjectAttribute text="{i18n>EmployeeNotes} {Notes}" />
+                <ObjectAttribute text="{i18n>EmployeePostalCode} {PostalCode}" />
+                <ObjectAttribute text="{i18n>EmployeeRegion} {Region}" />
+                <ObjectAttribute text="{i18n>EmployeeTitle} {Title}" />
+                <ObjectAttribute text="{i18n>EmployeeTitleOfCourtesy} {TitleOfCourtesy}" />
 
         </ObjectHeader>
 
@@ -32,7 +32,7 @@
 
 				<Button id = "backButton"
                     type = "Back" 
-                    text = "Volver"
+                    text = "{i18n>backButton}"
                     press = "onPress"
                     class = "sapUITinyMargin">
 				</Button>

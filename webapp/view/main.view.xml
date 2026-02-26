@@ -8,22 +8,22 @@
                 mode= "SingleSelectMaster" itemPress=".onPressItem"> <!--nombreModelo>/nombreListaDelJson, el modelo en este caso no tiene nombre, es "" por defecto-->
                 <columns>
 			        <Column width="5em">
-				        <Text text="Employee ID" />
+				        <Text text="{i18n>EmployeeID}" />
 			        </Column>
                     <Column width="5em">
-				        <Text text="T. of Courtesy" />
+				        <Text text="{i18n>EmployeeMainTitleOfCourtesy}" />
 			        </Column>
                     <Column width="5em">
-				        <Text text="First Name" />
+				        <Text text="{i18n>EmployeeFirstName}" />
 			        </Column>
                     <Column width="5em">
-				        <Text text="Last Name" />
+				        <Text text="{i18n>EmployeeLastName}" />
 			        </Column>
                     <Column width="12em">
-				        <Text text="Birth Date" />
+				        <Text text="{i18n>EmployeeMainBirthDate}" />
 			        </Column>
                     <Column width="12em">
-				        <Text text="Title" />
+				        <Text text="{i18n>EmployeeMainTitle}" />
 			        </Column>
                 </columns>
                 <items>
